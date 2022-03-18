@@ -25,10 +25,10 @@ function App() {
         </Nav>
       <main>
         <Gallery
-        currentCategory={currentCategory}
+        categoryCategory={currentCategory}
         >
         </Gallery>
-        <About/>
+        <About></About>
       </main>
     </div>
   );

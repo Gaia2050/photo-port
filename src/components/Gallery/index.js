@@ -8,7 +8,9 @@ function Gallery({ currentCategory }) {
         <section>
             <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
             <p>{description}</p>
-            <PhotoList />
+            <PhotoList
+            currentCategory={currentCategory.name}
+            />
         </section>
     );
 }
